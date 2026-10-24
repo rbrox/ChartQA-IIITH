@@ -1,0 +1,301 @@
+row_idx,query,label,human_or_machine
+23,IS the value of No more then sum of Yes and Dk?,Yes,0
+30,What's the value of leftmost bar in the bottom?,12,0
+39,What is the difference between the longest and the shortest green bar?,7,0
+44,What's the value of United States?,0.124,0
+59,Find the average of the percentage value of bars greater than 1?,1.608,0
+60,Which state shows the highest fertility rate?,Malawi,0
+63,What is the difference between the largest bar and the smallest bar?,1654,0
+66,What is the value of longest bar?,96,0
+67,How many bars have value less then 1?,5,0
+70,How many response options are below 150 n mi?,2,0
+72,Which year mentioned in the heading of the chart?,1911,0
+76,What is the value shown for Australia?,0.4368,0
+86,What is Female-to-male ratio to time devoted to unpaid care work in Italy?,3.37,0
+88,What is the value of largest bar?,396,0
+96,Which place shows the highest cases of guinea worm?,South Sudan,0
+107,Does the sum of smallest two bar is greater then the largest bar?,No,0
+110,What is the highest value in the bar graph?,23,0
+120,How many region are shown in the chart?,7,0
+136,What is the % of people who are worried about losing their job in Cyprus?,58.79,0
+137,What is the difference in % between Poland and Australia for people who are worried about losing their job?,17.05,0
+139,How many bars with the equal value in the bar graph?,2,0
+158,Which is the highest percentage of the value?,0.405,0
+165,Which country has the smallest fluctuations in the chart?,South Korea,0
+168,The pink line in the chart belongs to which country data?,France,0
+174,What does Orange line represents?,Urban,0
+192,In which year the share of people having access to clean fuel for cooking is maximum in Bosnia and Herzegovina?,2013,0
+198,Which year does Czechia point?,1992,0
+209,Which country has a higher share of the population using safely managed drinking water over the years?,Bosnia and Herzegovina,0
+215,How many years are Greece's population rate below 35%,1,0
+218,Which country is represented by the given line graph?,Niger,0
+231,Which line has the slightest change in the share of the population with severe food insecurity?,Eastern Asia,0
+235,Which year it is in peak?,2006,0
+244,Which country is represented in this graph?,Australia,0
+250,"In which year, the value of Employment in the agriculture graph peaked?",1999,0
+254,Is the crude oil import price greater than 25$/barrel in 1984?,Yes,0
+260,What's the lowest value of the light blue bar?,8,0
+261,What's the average of all the bars in Germany?,24.25,0
+265,Is the A Great deal value of the state government more than Federal government ?,Yes,0
+266,What's the highest value of gray bar?,61,0
+280,"46, 43, 41 which data is missed?",47,0
+281,Is the sum of the highest value of navy blue bar and median of light blue bar greater than 100?,No,0
+286,How many of them say in West Germany that religion is very important in their lives?,27,0
+290,What's the maximum value in the brightest yellow bar?,53,0
+292,How many people in total think Chinese growth is a good thing for the US?,50,0
+298,What's the percentage value of the blue bar in Greece?,87,0
+306,What's the NET value of the All Teens bar?,57,0
+316,How many colors are shown in the graph?,4,0
+321,Is the median of green bars greater than the largest value of the gray bar?,No,0
+323,How many shades of Green does a bar show?,2,0
+326,What's the value of the rightmost bar in the middle?,50,0
+334,Who says Good more to the question?,General public,0
+342,What's the percentage of U.S. adults who oppose more fracking?,53,0
+344,What's the value of the rightmost first bar from the bottom?,8,0
+350,What is the value of Very opinion in Aug 2016?,49,0
+355,What are the top three groups that favor weakening the EU?,"[50+, Men, Secondary education or less]",0
+363,How many times  New Zealand greater than Czech Republic?,3.0659,0
+365,What's the total add up value of japan and Colombia?,51.7,0
+371,What's the average of two smallest bar?,40.9,0
+380,How many color bars are there in the Graph?,3,0
+411,Is the sum of two smallest bar greater than largest bar?,No,0
+423,What is the total value of two least bar?,20.34,0
+425,What is the average price of Japan coking coal import cif and Japan steam spot cif?,177.625,0
+439,Is the median value of Slovenia data points greater than 40?,Yes,0
+448,Which country is represented by the given line graph?,Canada,0
+449,Which year recorded the lowest net childcare costs in Canada?,2019,0
+457,"Between which two years , the GDP of New Zealand is maximum?",2009,0
+464,Who has the most oscars out of the the actors listed,Katharine Hepburn,0
+477,Are the sum of NSW Technology and TFK Group segment greater than 50%?,Yes,0
+486,What's the percentage share of Ladies in Ross Stores sales in the U.S. in 2020?,23,0
+490,What is the color of smallest segment?,Green,0
+493,Which year experienced the greatest improvement in poverty?,2005,0
+499,"From 2010 to 2012, which year saw the biggest change in bankruptcies?",2011,0
+506,Which has the lowest Radio device ownership among 15-39 year-olds in the United States in 2017?,A portable AM/FM radio,0
+514,What does the grey color indicate?,All households,0
+518,By how much is 2 persons higher than that of 1 person?,34960,0
+523,What is the average price for snowboard boots? (in dolalrs)?,158.58,0
+529,Which site is three times than yellowpages?,Industry specific,0
+532,How many number of golfers are there in 2016?,463952,0
+534,Which repsone has the biggest slice of the graph?,As much as before the lockdown,0
+542,Which year has 2.03%?,2016,0
+545,What is the difference between Carex and Palmolive?,24.3,0
+549,What is the percentage of rheumatologists in the U.S. who either worked at a Hospital  or an Office-based solo practice as of 2019?,27,0
+559,What is the ratio of Videos and Carousel?,1.545454545,0
+567,What is the difference in company sales and revenue streams between 2013 and 2020 in US dollars?,16.3,0
+570,Which country has the highest number of deaths caused by major droughts worldwide from 1900-2016?,China (1928),0
+575,What is the total budgeted public sector expenditure on Transport and Defense (in billion GBP)?,99,0
+576,Which of these countries is the leading country in clothing experience in 2019?,China*,0
+578,What growth rate has the second highest bar?,10k-100k,0
+582,What year did Roche spend the most in?,2020,0
+595,What is the total percentage revenue share of the LVMH Group worldwide in 2020 from Asia and Japan?,41,0
+597,What is the sum of the sales share of Food & Beverages and Beauty & household essentials segment in 2020?,46,0
+598,Which year has the highest number of fatalities?,2006,0
+602,How many Facebook fans (in millions) does Mango have?,11.68,0
+603,What is the total number of Facebook fans (in millions) that BOSS and ROLEX have?,16.06,0
+605,What is the difference in the monthly average earnings per hour of all employees in the US  between May 2020 and May 2021,0.59,0
+616,What is the number of fatalities in 2016?,563,0
+618,What is the percentage of nickel imports in Canada?,42,0
+621,"What's the total of apparel and footwear, Share of Puma's net sales worldwide in 2020, by segment",82.9,0
+622,What is distribution of potash reserves in Germany in 2019?,4.2,0
+631,"Daily, how many percentage of people use Instagram?",63,0
+635,Which year has the least number of workers?,2014,0
+649,What is the average life expectancy between 2008 and 2018?,58.56,0
+650,What is the value of highest blue bar?,30,0
+660,Which country has the maximum revenue share?,North America,0
+662,What is the third data value in the blue bar ? left to right,4.7,0
+665,"If we add Gucci and Saint Laurent percentage, write the result?",73,0
+667,What 2 slices make up over 75% of the crowdfunding total?,"[Equity-based crowdfunding, Real estate crowdfunding]",0
+680,Which year represents the highest expenditure?,2028,0
+688,Which two market shares have been taken?,"[Investment funds, Discretionary mandate assets]",0
+697,What is the average of values above 70? (in million U.S. dollars)?,71.5,0
+705,What was the combined number for Manchester United players?,61,0
+708,What's the percentage value of Hispanic respondents who think movies are very important for avoiding racial stereotypes?,20,0
+718,What's the percentage value of White female presidents?,33,0
+720,Who is playing more mobile games in several times a day ?,Female,0
+728,What does the tallest bar represent,No,0
+730,Which gender spend more times playing games in the year 2014?,Male,0
+736,What is the percentage of Processor market share in the year end March 2018?,40.6,0
+743,what is the difference between the highest and smallest pharmacy service,10.1,0
+750,"What type of building has the highest  Construction costs of buildings in Ontario, Canada in 2020?",Health care - ambulatory care,0
+756,which year did the grey bar had the less sales?,2013,0
+762,which year  has the highest single,2018,0
+770,What is the percentage of avid male sports fans?,39,0
+785,How many more men were there than women in 2018?,2.6,0
+792,Which tour operators in Europe had highest revenue in 2014?,TUI,0
+814,Which has the least wholesale unit sales in the U.S overall?,Smart home controllers,0
+826,How many new cancer cases are there in male ?,970250,0
+830,In which year the white members were maximum?,1995,0
+836,What is the highest share in 2013?,75.9,0
+846,Which year the blue bar is above 5?,2020,0
+849,what is sum of the value in extinction of plants and animal species?,79,0
+861,Which year has the maximum traffic of smartphones?,2017,0
+864,What is the highest value of the light blue bar?,4.2,0
+869,What is the average from 2010 to 2015 in import value?,361048.33,0
+878,Which skin  has a least difference between male and female?,Other nonepithelial skin,0
+887,Subtract the value of green bar from red bar in the judges and politicians category and sum the result?,26,0
+893,What is the difference between the ages in 2014/15?,21.2,0
+897,"What is the average  of females value in the first five region,  from Yorkshire and the humber to south west?",9.8,0
+899,What is the average of last 3 year in Danish citizenship?,1972,0
+902,What is the percentage share of Industry in GDP in 2015?,13.65,0
+907,What is the difference between the modes of Somewhat interested and that of Don't know?,27,0
+908,What is the number of viewers in 2005?,8.1,0
+909,What is the difference between the rating and viewers in 2013?,3.4,0
+913,What's the percentage of boomers who never use social media?,48,0
+915,How much percentage points increased in services from 2014 to 2020?,3.4,0
+916,"Identify the category in y-axis, where the bar value is 8,5,12,20 %?",Chinese language TV,0
+923,How many opinions have a percentage of equal or above 20%?,3,0
+945,How many periods represent least difference between should and should not?,3,0
+949,What is the average of highest values of male and female?,70.445,0
+955,In which year the GDP of the services sector was maximum and the GDP of the Industry was minimum?,2019,0
+958,What's the color of the tallest bar in this graph?,Red,0
+983,How many drug recall enforcement reports did the FDA issue for over-the-counter drugs in 2015?,39,1
+990,How much revenue did TUI have in 2012 and 2014?,18.7,1
+999,What online review site did 59 percent of respondents say they had visited to conduct research on a local business?,Yelp,1
+1004,What country had the world's largest potash reserves in 2019?,Canada,1
+1019,How many Taco Bell stores did Yum! Brands have in Spain at the end of the third quarter of 2020?,69,1
+1020,Which accounting firm was the biggest of the Big Four accounting firms in 2020?,Deloitte,1
+1023,Which liquid soap brand has managed to maintain positive sales growth over the specified time period?,Carex,1
+1026,How much was the internal travel and tourism consumption in the U.S. Virgin Islands in 2013?,3.24,1
+1027,What is the 2019 revenue of the U.S. Virgin Islands tourism industry?,2.59,1
+1030,What percentage of people infected with the coronavirus were female?,51.1,1
+1032,What percentage of pet store revenue did 25-44-year-olds generate in 2021?,32.3,1
+1036,What percentage of L'Oral's global consolidated sales did skin care account for in 2020?,39.48,1
+1046,What percentage of global clothing exports did China have in 2019?,30.8,1
+1048,How much revenue did General Motors generate in the 2020 fiscal year?,122.49,1
+1056,What was LVMH Group's global revenue share from the United States in 2020?,24,1
+1067,What was Hornbach's sales revenue in 2013?,2,1
+1070,What was the initial estimate for Denmark's economy growth?,1.5,1
+1080,What was the share of SME companies with family management in Italy in 2018?,78.4,1
+1096,"According to a study conducted in 2019, what percentage of 13 to 20 year old females in the top grossing films of 2018 were shown in what is",37.3,1
+1097,How many eSports enthusiasts are expected to be around by 2024?,285.7,1
+1099,"What percentage of the whole accident, health and medical insurance market was covered by the five leading companies as of end of 2014?",75.9,1
+1118,What was the total number of visitors to the Palace of Versailles in 2014?,7.7,1
+1125,What was the value of commercial and industrial loans of FDIC-insured commercial banks in dollars in 2019?,2.16,1
+1128,What is the estimated urea production capacity addition in the United States in 2017?,2.7,1
+1134,What percentage of the British adult population owns an eReader?,28,1
+1152,How many people visit Kokkejaelvel every day?,27006,1
+1158,How much did The Twilight Saga: New Moon gross in the U.S. in January 2018?,296.62,1
+1169,What percentage of all UAVs traded came from the UK between 2010 and 2014?,33.9,1
+1175,"By 2020, the distance traveled by passengers on the London Underground declined to what?",11.8,1
+1178,What percentage of Nigeria's GDP did the oil industry contribute between October and December 2020?,5.87,1
+1191,How much did TUI AG spend on wages and salaries in 2020?,1871.6,1
+1195,"As of March 2020, how many enterprises had a turnover of more than 5 million British pounds?",15,1
+1204,How many hours were watched on Twitch in May 2021?,91.9,1
+1210,What was the market value of Sergej Milinkovic-Savic?,90,1
+1214,Since when has the plant load factor of all power stations in the UK fluctuated?,2010,1
+1220,What is the percentage of jobs that Northern Ireland and the South West region are expected to lose?,1.2,1
+1221,What is the name of the French shipping company with the largest chartered fleet?,Mediterranean Shg Co,1
+1225,What was the number of Instagram users in South Africa in April 2020?,4.31,1
+1226,How many Instagram users were there in South Africa as of April 2021?,5.79,1
+1240,What was the infant mortality rate in Malawi in 2019?,30.9,1
+1241,"In what year did customers spend an estimated 72.3 billion U.S. dollars on in-app purchases, subscriptions, and premium apps?",2020,1
+1246,How much did Yahoo pay for Tumblr?,1100,1
+1250,What was the value of imports in U.S. dollars in 2020?,2808.95,1
+1252,How much freight was transported in Russia between 2006 and 2019?,4300741,1
+1258,What percentage of Spain's exports came from France in 2019?,15,1
+1266,What country is the largest importer of the Russian car brand?,Latvia,1
+1276,What was the average price of one barrel of Brent Crude oil in May 2021?,68.53,1
+1281,What was the number of defendants charged in 2017?,412,1
+1283,How many days of rainfall did Paris have in January?,11,1
+1286,Who is the career points leader of the Dallas Mavericks?,Dirk Nowitzki,1
+1294,What public issuer had about 9.4 million viewers in the considered time range?,Rai,1
+1302,How many companies did Google acquire in 2014?,36,1
+1304,What was the most popular social media platform in Germany as of the 3rd quarter of 2020?,WhatsApp,1
+1310,What was the group share of net income for Thales in 2005?,334,1
+1315,What was the global market value of blockchain in the food and agriculture market in 2017?,32.2,1
+1323,How many Democratic senators make up the 116th Congress?,45,1
+1325,What website had about 423.43 million mobile visits in September 2019?,ebay Kleinanzeigen,1
+1331,What was Mexico's export value in dollars in 2019?,2789.67,1
+1340,"What was the name of the most number of restaurants owned by Bloomin' Brands, Inc. in 2020?",Outback Steakhouse,1
+1371,What was Nebraska's unemployment rate in 2020?,4.2,1
+1383,What percentage of PV inverter market shipments did Huawei account for in 2018?,22,1
+1385,How much Japanese yen did Kawasaki incur in research and development expenses in the fiscal year of 2013?,40.3,1
+1399,How many births were registered in Italy in 2010?,549794,1
+1408,What was the average selling price of a smartphone in Pakistan in 2016?,121,1
+1409,What was the highest grossing film in the UK in January of 2020?,Star Wars: Episode IX - The Rise of Skywalker,1
+1417,What was Finland's annual trade index as of 2019?,98.8,1
+1424,What was China's export value in dollars in 2018?,26588,1
+1437,What percentage of their weekly household expenditure did households in the eight decile group spend on medical products?,0.7,1
+1446,What year was Southwest Airlines Co.'s last fiscal year?,2010,1
+1450,What percentage of total mobile service revenue did mobile data account for in the UK in 2015?,27.6,1
+1453,What was the unemployment rate in 2020?,8.1,1
+1459,What was the abandonment rate in the previous quarter?,77.3,1
+1466,What was the turnover of clothing stores in 2019?,41140,1
+1474,What year was Bridgestone's fiscal year for research and development?,2009,1
+1478,What was the export value of the European Union's fish and fishery products in US dollars in 2019?,36.2,1
+1483,What was Iowa's unemployment rate in 2020?,5.3,1
+1489,What was the population density of Missouri in 2018?,89.1,1
+1492,In what year did the population of Guyana begin to increase?,2008,1
+1494,What was the average cost of overnight accommodation in Los Angeles in July 2017?,256,1
+1502,How many boys participated in high school baseball in the 2018/19 season?,482740,1
+1505,What percentage of respondents said that a major reason for not attending an arts event was that the entry fee was too much?,36.7,1
+1509,Which team has won the most League Cup titles?,Liverpool FC,1
+1519,What was the average amount of damages from a targeted cyber attack on a business?,5.9,1
+1527,Which Italian football team won the most Coppa Italia competitions in 2020?,Juventus FC,1
+1530,What was the total amount of student loan debt in England in 2020?,121.81,1
+1535,What was the number of JBS employees worldwide in 2019?,242105,1
+1536,How many employees did JBS have a year earlier?,230086,1
+1538,How much did the Maldives' gross domestic product grow in 2019?,6.99,1
+1542,How many visitors did Yosemite National Park see in 2020?,2.27,1
+1555,How many metric tons of greenhouse gases did Dow Chemical emit in 2005?,47,1
+1557,How many times has Iker Casillas appeared in the Champions League?,181,1
+1558,Who follows Iker Casillas in appearances in the Champions League?,Cristiano Ronaldo,1
+1562,What was the average annual wine consumption per resident in the United States in 2018?,2.95,1
+1563,What is the expected number of inbound visitors in the Netherlands in 2020?,20.1,1
+1565,In what year did Walmart have a stable gross profit margin?,2006,1
+1576,How many players did Juventus FC have as of October 2020?,23,1
+1578,Which football club had the lowest number of footballers as of October 2020?,Juventus FC,1
+1581,What was the average face amount of individual life insurance policies purchased in the United States in 2018?,168,1
+1582,What was the average face amount of individual life insurance policies purchased in the United States in 2018?,168,1
+1591,In what year was the app sensor market forecast to be worth 5.6 billion U.S. dollars?,2017,1
+1595,What was the global number of Inditex employees in 2020?,144116,1
+1609,What is the combined market/transfer value of the Spanish squad?,622,1
+1610,What was the net banking income of European banks in 2013?,700,1
+1620,What percentage of Nigerians use Facebook and Youtube?,86.2,1
+1622,How much revenue did Zynga generate in the first quarter of 2021?,616,1
+1625,How many widowed people lived in Canada in 2000?,1.55,1
+1627,What country has the largest population in Africa?,Nigeria,1
+1640,What was the highest rating for En Punto con Denise Maerker?,11.8,1
+1648,How much money did Universal spend on '1917'?,10.41,1
+1657,Which country was responsible for five percent of the global blood plasma market?,Germany,1
+1665,What was the global demand for ethylene in 2017?,152,1
+1668,What was the unemployment rate in Sierra Leone in 2020?,4.44,1
+1678,"What was the total sales of office supplies, stationery, and gift stores in the United States a year earlier?",30.32,1
+1680,How many carvedilol prescriptions were there in 2018?,22.78,1
+1688,Which country came in second among the countries shown in this graph?,Mexico,1
+1690,What percentage of respondents identified the problems with integrating systems and operations as the main obstacle on the way to smooth integration?,29,1
+1696,By what year did Brunei expect to have a population over 65?,2040,1
+1703,What is the predicted decrease in smartphone shipment value in 2020?,6.4,1
+1710,What percentage of food and grocery retail sales did online sales make up in 2013?,0.4,1
+1716,How many mobile subscriptions were registered for every 100 people in South Africa between 2000 and 2019?,165.6,1
+1722,Who is the career rushing leader of the Kansas City Chiefs?,Jamaal Charles,1
+1730,How much money did full public relations services bring in in 2019?,764,1
+1745,Which country had the highest pedestrian death rate out of all the countries of the UK?,Romania,1
+1752,What was India's revenue from international tourism in 2019?,30.06,1
+1774,What was the average number of children born per one woman in the urban area?,1.43,1
+1786,Which region had the highest number of cases of coronavirus?,Lombardy,1
+1790,What was the benchmark index of commercial rents during the 1st quarter of 2020?,116.23,1
+1796,What was the second most popular newspaper in the UK?,The Guardian,1
+1806,What percentage of GDP did the national debt of the Philippines amount to in 2020?,47.07,1
+1809,How many points does Ronan O'Gara have for the Irish national rugby team?,93,1
+1821,How much was proposed for military crisis management in 2021?,59,1
+1824,What was the GDP of Massachusetts in dollars in the previous year?,519.96,1
+1829,What was Coca Cola's market share in Egypt in 2010?,32,1
+1838,What was the estimated amount of sponsorship and advertising spending on the eSports market in 2017?,124.41,1
+1847,What was the monthly CPI for lamb and goat meat in Italy at the beginning of the year 2015?,101.7,1
+1853,How many stores did Dillard's operate in 2020?,282,1
+1857,What percentage of white respondents said they see the Confederate flag as a symbol of racism?,25,1
+1859,How many people committed suicide by throwing themselves in front of a train in 2006?,24,1
+1862,What was the lowest production of duck foie gras in 2017?,11519,1
+1867,What was the most frequently used social network in Canada?,Facebook,1
+1868,How much did Alphabet spend on lobbying in 2020?,8.85,1
+1869,How much did J.K. Rowling earn from June 2018 to June 2019?,92,1
+1873,Which country has the most markets?,France,1
+1875,How much did the cruise industry pay in employee wages in 2009?,5.48,1
+1876,How much was the expenses of the Green Bay Packers in 2017?,376.1,1
+1883,When did the value of gross written premiums by life insurance companies on the domestic market in Malta increase?,2012,1
+1905,What percentage of 17 year olds attended school?,93.3,1
+1909,In what year did the per capita gross domestic product reach its highest value?,2019,1
+1915,What was the most valuable British-Dutch oil and gas company in 2021?,Shell,1
+1918,Where did migrants arrive from January to December 2018?,Pozzallo,1
