@@ -39,6 +39,30 @@ def make_sample(val_path: Path, n: int, seed: int) -> pd.DataFrame:
     return sample
 
 
+def make_sample_df_preserved( df: pd.DataFrame, n: int, seed: int = 42,) -> pd.DataFrame:
+    
+    """Draw a stratified sample of size `n`, preserving all original columns."""
+    
+    # Proportional target size per stratum
+    shares = df[STRATA_COL].value_counts(normalize=True) * n
+    per_group = shares.astype(int)
+
+    # Largest-remainder allocation of the leftover slots
+    leftover = n - per_group.sum()
+    by_remainder = (shares - per_group).sort_values(ascending=False)
+    for group in by_remainder.index[:leftover]:
+        per_group[group] += 1
+
+    # Stratified sampling using the allocated counts
+    parts = [
+        df[df[STRATA_COL] == group].sample(n=int(k), random_state=seed)
+        for group, k in per_group.items()
+    ]
+
+    return pd.concat(parts).sort_index().reset_index(drop=True)
+
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--n", type=int, default=300)
