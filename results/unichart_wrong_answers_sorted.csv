@@ -1,0 +1,70 @@
+row_idx,human_or_machine,query,label,unichart_answer,cause,deplot_also_right
+23,0,IS the value of No more then sum of Yes and Dk?,Yes,No,table wrong or missing data,True
+30,0,What's the value of leftmost bar in the bottom?,12,57%,"visual question (colour/position), table can't answer",False
+39,0,What is the difference between the longest and the shortest green bar?,7,46,"visual question (colour/position), table can't answer",False
+44,0,What's the value of United States?,0.124,12.4%,"right answer, strict scoring (format)",False
+67,0,How many bars have value less then 1?,5,1,table wrong or missing data,False
+72,0,Which year mentioned in the heading of the chart?,1911,"I can’t answer that from the table alone, because the table does not include any year or chart heading.",table wrong or missing data,True
+76,0,What is the value shown for Australia?,0.4368,43.68%,"right answer, strict scoring (format)",False
+120,0,How many region are shown in the chart?,7,6,"LLM reasoning/arithmetic error, table looks fine",True
+158,0,Which is the highest percentage of the value?,0.405,40.5%,"right answer, strict scoring (format)",False
+168,0,The pink line in the chart belongs to which country data?,France,Ilroy Coast,"visual question (colour/position), table can't answer",True
+215,0,How many years are Greece's population rate below 35%,1,0,table wrong or missing data,True
+260,0,What's the lowest value of the light blue bar?,8,5%,"visual question (colour/position), table can't answer",True
+261,0,What's the average of all the bars in Germany?,24.25,19.67,table wrong or missing data,True
+280,0,"46, 43, 41 which data is missed?",47,"46, 43, 41","LLM reasoning/arithmetic error, table looks fine",False
+281,0,Is the sum of the highest value of navy blue bar and median of light blue bar greater than 100?,No,Yes,"visual question (colour/position), table can't answer",False
+286,0,How many of them say in West Germany that religion is very important in their lives?,27,13%,table wrong or missing data,True
+290,0,What's the maximum value in the brightest yellow bar?,53,70%,"visual question (colour/position), table can't answer",False
+298,0,What's the percentage value of the blue bar in Greece?,87,7%,"visual question (colour/position), table can't answer",True
+306,0,What's the NET value of the All Teens bar?,57,25%,table wrong or missing data,True
+316,0,How many colors are shown in the graph?,4,I can’t determine that from the table.,"visual question (colour/position), table can't answer",True
+321,0,Is the median of green bars greater than the largest value of the gray bar?,No,Yes,"visual question (colour/position), table can't answer",False
+323,0,How many shades of Green does a bar show?,2,I can’t answer that from the table.,"visual question (colour/position), table can't answer",False
+326,0,What's the value of the rightmost bar in the middle?,50,0%,table wrong or missing data,True
+334,0,Who says Good more to the question?,General public,Google,table wrong or missing data,True
+342,0,What's the percentage of U.S. adults who oppose more fracking?,53,42%,table wrong or missing data,True
+350,0,What is the value of Very opinion in Aug 2016?,49,29%,table wrong or missing data,True
+355,0,What are the top three groups that favor weakening the EU?,"[50+, Men, Secondary education or less]","50+, Men, Secondary education or less","right answer, strict scoring (format)",False
+365,0,What's the total add up value of japan and Colombia?,51.7,26.8k,table wrong or missing data,True
+457,0,"Between which two years , the GDP of New Zealand is maximum?",2009,2006 and 2008,table wrong or missing data,False
+490,0,What is the color of smallest segment?,Green,I can’t determine the color from the table because it contains no color information.,"visual question (colour/position), table can't answer",False
+514,0,What does the grey color indicate?,All households,I don't know.,"visual question (colour/position), table can't answer",False
+523,0,What is the average price for snowboard boots? (in dolalrs)?,158.58,171.19,"LLM reasoning/arithmetic error, table looks fine",False
+534,0,Which repsone has the biggest slice of the graph?,As much as before the lockdown,As much as before the I...,table wrong or missing data,True
+559,0,What is the ratio of Videos and Carousel?,1.545454545,17:11,"right answer, strict scoring (format)",False
+567,0,What is the difference in company sales and revenue streams between 2013 and 2020 in US dollars?,16.3,0.3,table wrong or missing data,True
+570,0,Which country has the highest number of deaths caused by major droughts worldwide from 1900-2016?,China (1928),China,"right answer, strict scoring (format)",False
+576,0,Which of these countries is the leading country in clothing experience in 2019?,China*,China,"right answer, strict scoring (format)",False
+578,0,What growth rate has the second highest bar?,10k-100k,16%,"LLM reasoning/arithmetic error, table looks fine",False
+665,0,"If we add Gucci and Saint Laurent percentage, write the result?",73,Cannot be determined from the table (Gucci is not listed).,table wrong or missing data,True
+667,0,What 2 slices make up over 75% of the crowdfunding total?,"[Equity-based crowdfunding, Real estate crowdfunding]",Real estate crowdfunding and Equity-based crowdfunding,table wrong or missing data,False
+680,0,Which year represents the highest expenditure?,2028,2028***,"right answer, strict scoring (format)",False
+688,0,Which two market shares have been taken?,"[Investment funds, Discretionary mandate assets]",Investment fund and Discretionary module asset,"right answer, strict scoring (format)",False
+705,0,What was the combined number for Manchester United players?,61,52,"LLM reasoning/arithmetic error, table looks fine",False
+728,0,What does the tallest bar represent,No,Yes,"LLM reasoning/arithmetic error, table looks fine",False
+743,0,what is the difference between the highest and smallest pharmacy service,10.1,9.1,table wrong or missing data,True
+756,0,which year did the grey bar had the less sales?,2013,2012/13,"visual question (colour/position), table can't answer",False
+878,0,Which skin  has a least difference between male and female?,Other nonepithelial skin,Other nonepithilia skin,table wrong or missing data,True
+887,0,Subtract the value of green bar from red bar in the judges and politicians category and sum the result?,26,-4,"visual question (colour/position), table can't answer",False
+907,0,What is the difference between the modes of Somewhat interested and that of Don't know?,27,24,"LLM reasoning/arithmetic error, table looks fine",False
+923,0,How many opinions have a percentage of equal or above 20%?,3,7,label or question is questionable,False
+945,0,How many periods represent least difference between should and should not?,3,1,"LLM reasoning/arithmetic error, table looks fine",False
+958,0,What's the color of the tallest bar in this graph?,Red,Cannot be determined,"visual question (colour/position), table can't answer",False
+990,1,How much revenue did TUI have in 2012 and 2014?,18.7,18.3 and 18.7,label or question is questionable,False
+1032,1,What percentage of pet store revenue did 25-44-year-olds generate in 2021?,32.3,I can’t determine that from the table.,table wrong or missing data,True
+1080,1,What was the share of SME companies with family management in Italy in 2018?,78.4,50%,label or question is questionable,False
+1134,1,What percentage of the British adult population owns an eReader?,28,23%,label or question is questionable,False
+1221,1,What is the name of the French shipping company with the largest chartered fleet?,Mediterranean Shg Co,CMA CGM Group,label or question is questionable,False
+1409,1,What was the highest grossing film in the UK in January of 2020?,Star Wars: Episode IX - The Rise of Skywalker,1917,label or question is questionable,False
+1505,1,What percentage of respondents said that a major reason for not attending an arts event was that the entry fee was too much?,36.7,34.4%,table wrong or missing data,True
+1519,1,What was the average amount of damages from a targeted cyber attack on a business?,5.9,3.2425,label or question is questionable,False
+1563,1,What is the expected number of inbound visitors in the Netherlands in 2020?,20.1,7.0,label or question is questionable,False
+1620,1,What percentage of Nigerians use Facebook and Youtube?,86.2,86.2% and 81.6%,label or question is questionable,False
+1622,1,How much revenue did Zynga generate in the first quarter of 2021?,616,680.3,label or question is questionable,False
+1703,1,What is the predicted decrease in smartphone shipment value in 2020?,6.4,-10%,label or question is questionable,False
+1730,1,How much money did full public relations services bring in in 2019?,764,9358,label or question is questionable,False
+1745,1,Which country had the highest pedestrian death rate out of all the countries of the UK?,Romania,England,label or question is questionable,False
+1821,1,How much was proposed for military crisis management in 2021?,59,811.0,table wrong or missing data,False
+1847,1,What was the monthly CPI for lamb and goat meat in Italy at the beginning of the year 2015?,101.7,I cannot answer this question from the table because it does not contain data for 2015.,table wrong or missing data,True
+1873,1,Which country has the most markets?,France,Germany,label or question is questionable,False
