@@ -1,0 +1,41 @@
+row_idx,human_or_machine,query,label,cause
+30,0,What's the value of leftmost bar in the bottom?,12,needs the image (colour or position)
+39,0,What is the difference between the longest and the shortest green bar?,7,needs the image (colour or position)
+60,0,Which state shows the highest fertility rate?,Malawi,my tools missed an answer the table does contain (fixable)
+67,0,How many bars have value less then 1?,5,UniChart table wrong or missing data
+70,0,How many response options are below 150 n mi?,2,my tools missed an answer the table does contain (fixable)
+72,0,Which year mentioned in the heading of the chart?,1911,UniChart table wrong or missing data
+215,0,How many years are Greece's population rate below 35%,1,UniChart table wrong or missing data
+261,0,What's the average of all the bars in Germany?,24.25,UniChart table wrong or missing data
+280,0,"46, 43, 41 which data is missed?",47,question or label is questionable
+286,0,How many of them say in West Germany that religion is very important in their lives?,27,UniChart table wrong or missing data
+306,0,What's the NET value of the All Teens bar?,57,UniChart table wrong or missing data
+316,0,How many colors are shown in the graph?,4,needs the image (colour or position)
+323,0,How many shades of Green does a bar show?,2,needs the image (colour or position)
+326,0,What's the value of the rightmost bar in the middle?,50,needs the image (colour or position)
+363,0,How many times  New Zealand greater than Czech Republic?,3.0659,UniChart dropped the last decimal digit (e.g. 376. for 376.1)
+371,0,What's the average of two smallest bar?,40.9,UniChart dropped the last decimal digit (e.g. 376. for 376.1)
+490,0,What is the color of smallest segment?,Green,needs the image (colour or position)
+534,0,Which repsone has the biggest slice of the graph?,As much as before the lockdown,UniChart table wrong or missing data
+665,0,"If we add Gucci and Saint Laurent percentage, write the result?",73,UniChart table wrong or missing data
+667,0,What 2 slices make up over 75% of the crowdfunding total?,"[Equity-based crowdfunding, Real estate crowdfunding]",UniChart table wrong or missing data
+680,0,Which year represents the highest expenditure?,2028,my tools missed an answer the table does contain (fixable)
+688,0,Which two market shares have been taken?,"[Investment funds, Discretionary mandate assets]",UniChart table wrong or missing data
+756,0,which year did the grey bar had the less sales?,2013,needs the image (colour or position)
+762,0,which year  has the highest single,2018,my tools missed an answer the table does contain (fixable)
+878,0,Which skin  has a least difference between male and female?,Other nonepithelial skin,my tools missed an answer the table does contain (fixable)
+923,0,How many opinions have a percentage of equal or above 20%?,3,question or label is questionable
+945,0,How many periods represent least difference between should and should not?,3,question or label is questionable
+958,0,What's the color of the tallest bar in this graph?,Red,needs the image (colour or position)
+1032,1,What percentage of pet store revenue did 25-44-year-olds generate in 2021?,32.3,UniChart table wrong or missing data
+1036,1,What percentage of L'Oral's global consolidated sales did skin care account for in 2020?,39.48,UniChart table wrong or missing data
+1204,1,How many hours were watched on Twitch in May 2021?,91.9,UniChart table wrong or missing data
+1252,1,How much freight was transported in Russia between 2006 and 2019?,4300741,UniChart table wrong or missing data
+1283,1,How many days of rainfall did Paris have in January?,11,my tools missed an answer the table does contain (fixable)
+1489,1,What was the population density of Missouri in 2018?,89.1,UniChart dropped the last decimal digit (e.g. 376. for 376.1)
+1505,1,What percentage of respondents said that a major reason for not attending an arts event was that the entry fee was too much?,36.7,UniChart table wrong or missing data
+1530,1,What was the total amount of student loan debt in England in 2020?,121.81,UniChart table wrong or missing data
+1563,1,What is the expected number of inbound visitors in the Netherlands in 2020?,20.1,question or label is questionable
+1730,1,How much money did full public relations services bring in in 2019?,764,question or label is questionable
+1821,1,How much was proposed for military crisis management in 2021?,59,UniChart table wrong or missing data
+1876,1,How much was the expenses of the Green Bay Packers in 2017?,376.1,UniChart dropped the last decimal digit (e.g. 376. for 376.1)

@@ -66,10 +66,15 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--val-path", type=Path, default=VAL_PATH)
     parser.add_argument("--sample-csv", type=Path, default=SAMPLE_CSV)
-    parser.add_argument("--out", type=Path, default=ROOT / "results/unichart_val_300.jsonl")
+    parser.add_argument("--out", type=Path, default=None,
+                        help="default: results/unichart_val_300.jsonl, or results/unichart_train_3000.jsonl with --chart-images")
+    parser.add_argument("--chart-images", type=Path, default=None,
+                        help="parquet from make_subset_images.py (chart_hash, image); use with the training subset CSV")
     parser.add_argument("--limit", type=int, default=None, help="only run the first N sample rows")
     parser.add_argument("--dry-run", action="store_true", help="skip the model, only check data/resume logic")
     args = parser.parse_args()
+    if args.out is None:  # row ids of the training subset and the validation sample overlap, so never share an output file
+        args.out = ROOT / ("results/unichart_train_3000.jsonl" if args.chart_images else "results/unichart_val_300.jsonl")
 
     sample = pd.read_csv(args.sample_csv)
     if args.limit:
@@ -84,7 +89,11 @@ def main():
     if todo.empty:
         return
 
-    val = pd.read_parquet(args.val_path, columns=["image"])
+    if args.chart_images:
+        packed = pd.read_parquet(args.chart_images)
+        image_bytes = dict(zip(packed["chart_hash"], (x["bytes"] for x in packed["image"])))
+    else:
+        val = pd.read_parquet(args.val_path, columns=["image"])
 
     device = "cpu"
     proc = model = None
@@ -102,7 +111,10 @@ def main():
     out_target = os.devnull if args.dry_run else args.out
     with open(out_target, "a", encoding="utf-8") as f:
         for n, row in enumerate(todo.itertuples(index=False), 1):
-            img_bytes = val.iloc[row.row_idx]["image"]["bytes"]
+            if args.chart_images:
+                img_bytes = image_bytes[row.chart_hash]
+            else:
+                img_bytes = val.iloc[row.row_idx]["image"]["bytes"]
             chart_hash = hashlib.md5(img_bytes).hexdigest()
             if chart_hash not in cache:
                 if args.dry_run:

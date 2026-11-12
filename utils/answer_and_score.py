@@ -76,12 +76,12 @@ def relaxed_correct(prediction, labels):
 
 # ---------- LLM call ----------
 
-def ask_llm(prompt, key, model, retries=5):
+def ask_llm(prompt, key, model, retries=5, max_tokens=64):
     body = {
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0,
-        "max_tokens": 64,
+        "max_tokens": max_tokens,
     }
     headers = {"Authorization": f"Bearer {key}"}
     for attempt in range(retries):

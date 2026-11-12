@@ -223,3 +223,7 @@ __marimo__/
 # Datasets
 
 datasets
+
+# Image features (large binary files; regenerate with utils/extract_image_features.py)
+results/image_features/
+results/image_features_val/

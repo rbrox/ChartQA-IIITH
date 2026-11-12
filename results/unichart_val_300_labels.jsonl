@@ -1,0 +1,300 @@
+{"row_idx": 23, "query": "IS the value of No more then sum of Yes and Dk?", "label": "Yes", "human_or_machine": 0, "kind": "yes_no", "detail": {"answer": "yes"}}
+{"row_idx": 30, "query": "What's the value of leftmost bar in the bottom?", "label": "12", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 39, "query": "What is the difference between the longest and the shortest green bar?", "label": "7", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 44, "query": "What's the value of United States?", "label": "0.124", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[3, 1]]}}
+{"row_idx": 59, "query": "Find the average of the percentage value of bars greater than 1?", "label": "1.608", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 60, "query": "Which state shows the highest fertility rate?", "label": "Malawi", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 63, "query": "What is the difference between the largest bar and the smallest bar?", "label": "1654", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 66, "query": "What is the value of longest bar?", "label": "96", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 67, "query": "How many bars have value less then 1?", "label": "5", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "counting question (needs a count, not a cell)"}}
+{"row_idx": 70, "query": "How many response options are below 150 n mi?", "label": "2", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "counting question (needs a count, not a cell)"}}
+{"row_idx": 72, "query": "Which year mentioned in the heading of the chart?", "label": "1911", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 76, "query": "What is the value shown for Australia?", "label": "0.4368", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[3, 1]]}}
+{"row_idx": 86, "query": "What is Female-to-male ratio to time devoted to unpaid care work in Italy?", "label": "3.37", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 88, "query": "What is the value of largest bar?", "label": "396", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 96, "query": "Which place shows the highest cases of guinea worm?", "label": "South Sudan", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 107, "query": "Does the sum of smallest two bar is greater then the largest bar?", "label": "No", "human_or_machine": 0, "kind": "yes_no", "detail": {"answer": "no"}}
+{"row_idx": 110, "query": "What is the highest value in the bar graph?", "label": "23", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 120, "query": "How many region are shown in the chart?", "label": "7", "human_or_machine": 0, "kind": "count_rows", "detail": {"rows": 7}}
+{"row_idx": 136, "query": "What is the % of people who are worried about losing their job in Cyprus?", "label": "58.79", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 137, "query": "What is the difference in % between Poland and Australia for people who are worried about losing their job?", "label": "17.05", "human_or_machine": 0, "kind": "compute", "detail": {"op": "difference", "operands": [[2, 1], [3, 1]]}}
+{"row_idx": 139, "query": "How many bars with the equal value in the bar graph?", "label": "2", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "counting question (needs a count, not a cell)"}}
+{"row_idx": 158, "query": "Which is the highest percentage of the value?", "label": "0.405", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 165, "query": "Which country has the smallest fluctuations in the chart?", "label": "South Korea", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[0, 4]]}}
+{"row_idx": 168, "query": "The pink line in the chart belongs to which country data?", "label": "France", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[0, 1]]}}
+{"row_idx": 174, "query": "What does Orange line represents?", "label": "Urban", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[0, 1]]}}
+{"row_idx": 192, "query": "In which year the share of people having access to clean fuel for cooking is maximum in Bosnia and Herzegovina?", "label": "2013", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[6, 0]]}}
+{"row_idx": 198, "query": "Which year does Czechia point?", "label": "1992", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[2, 0]]}}
+{"row_idx": 209, "query": "Which country has a higher share of the population using safely managed drinking water over the years?", "label": "Bosnia and Herzegovina", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[0, 1]]}}
+{"row_idx": 215, "query": "How many years are Greece's population rate below 35%", "label": "1", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "counting question (needs a count, not a cell)"}}
+{"row_idx": 218, "query": "Which country is represented by the given line graph?", "label": "Niger", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[0, 1]]}}
+{"row_idx": 231, "query": "Which line has the slightest change in the share of the population with severe food insecurity?", "label": "Eastern Asia", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[0, 6]]}}
+{"row_idx": 235, "query": "Which year it is in peak?", "label": "2006", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[2, 0]]}}
+{"row_idx": 244, "query": "Which country is represented in this graph?", "label": "Australia", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[0, 1]]}}
+{"row_idx": 250, "query": "In which year, the value of Employment in the agriculture graph peaked?", "label": "1999", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 254, "query": "Is the crude oil import price greater than 25$/barrel in 1984?", "label": "Yes", "human_or_machine": 0, "kind": "yes_no", "detail": {"answer": "yes"}}
+{"row_idx": 260, "query": "What's the lowest value of the light blue bar?", "label": "8", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 261, "query": "What's the average of all the bars in Germany?", "label": "24.25", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 265, "query": "Is the A Great deal value of the state government more than Federal government ?", "label": "Yes", "human_or_machine": 0, "kind": "yes_no", "detail": {"answer": "yes"}}
+{"row_idx": 266, "query": "What's the highest value of gray bar?", "label": "61", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[5, 1]]}}
+{"row_idx": 280, "query": "46, 43, 41 which data is missed?", "label": "47", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 281, "query": "Is the sum of the highest value of navy blue bar and median of light blue bar greater than 100?", "label": "No", "human_or_machine": 0, "kind": "yes_no", "detail": {"answer": "no"}}
+{"row_idx": 286, "query": "How many of them say in West Germany that religion is very important in their lives?", "label": "27", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 290, "query": "What's the maximum value in the brightest yellow bar?", "label": "53", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[4, 2]]}}
+{"row_idx": 292, "query": "How many people in total think Chinese growth is a good thing for the US?", "label": "50", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[2, 1], [3, 1]]}}
+{"row_idx": 298, "query": "What's the percentage value of the blue bar in Greece?", "label": "87", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 306, "query": "What's the NET value of the All Teens bar?", "label": "57", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 316, "query": "How many colors are shown in the graph?", "label": "4", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "counting question (needs a count, not a cell)"}}
+{"row_idx": 321, "query": "Is the median of green bars greater than the largest value of the gray bar?", "label": "No", "human_or_machine": 0, "kind": "yes_no", "detail": {"answer": "no"}}
+{"row_idx": 323, "query": "How many shades of Green does a bar show?", "label": "2", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "counting question (needs a count, not a cell)"}}
+{"row_idx": 326, "query": "What's the value of the rightmost bar in the middle?", "label": "50", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 334, "query": "Who says Good more to the question?", "label": "General public", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[2, 0]]}}
+{"row_idx": 342, "query": "What's the percentage of U.S. adults who oppose more fracking?", "label": "53", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[5, 2]]}}
+{"row_idx": 344, "query": "What's the value of the rightmost first bar from the bottom?", "label": "8", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[8, 3]]}}
+{"row_idx": 350, "query": "What is the value of Very opinion in Aug 2016?", "label": "49", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 4], [4, 1], [4, 4]]}}
+{"row_idx": 355, "query": "What are the top three groups that favor weakening the EU?", "label": "[50+, Men, Secondary education or less]", "human_or_machine": 0, "kind": "extract", "detail": {"answer_parts": ["50+", "Men", "Secondary education or less"], "cells": [[6, 0], [2, 0], [7, 0]]}}
+{"row_idx": 363, "query": "How many times  New Zealand greater than Czech Republic?", "label": "3.0659", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 365, "query": "What's the total add up value of japan and Colombia?", "label": "51.7", "human_or_machine": 0, "kind": "compute", "detail": {"op": "sum", "operands": [[4, 1], [5, 1]]}}
+{"row_idx": 371, "query": "What's the average of two smallest bar?", "label": "40.9", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 380, "query": "How many color bars are there in the Graph?", "label": "3", "human_or_machine": 0, "kind": "count_rows", "detail": {"rows": 3}}
+{"row_idx": 411, "query": "Is the sum of two smallest bar greater than largest bar?", "label": "No", "human_or_machine": 0, "kind": "yes_no", "detail": {"answer": "no"}}
+{"row_idx": 423, "query": "What is the total value of two least bar?", "label": "20.34", "human_or_machine": 0, "kind": "compute", "detail": {"op": "sum", "operands": [[4, 1], [5, 1]]}}
+{"row_idx": 425, "query": "What is the average price of Japan coking coal import cif and Japan steam spot cif?", "label": "177.625", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 439, "query": "Is the median value of Slovenia data points greater than 40?", "label": "Yes", "human_or_machine": 0, "kind": "yes_no", "detail": {"answer": "yes"}}
+{"row_idx": 448, "query": "Which country is represented by the given line graph?", "label": "Canada", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[0, 1]]}}
+{"row_idx": 449, "query": "Which year recorded the lowest net childcare costs in Canada?", "label": "2019", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[2, 0]]}}
+{"row_idx": 457, "query": "Between which two years , the GDP of New Zealand is maximum?", "label": "2009", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 464, "query": "Who has the most oscars out of the the actors listed", "label": "Katharine Hepburn", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 477, "query": "Are the sum of NSW Technology and TFK Group segment greater than 50%?", "label": "Yes", "human_or_machine": 0, "kind": "yes_no", "detail": {"answer": "yes"}}
+{"row_idx": 486, "query": "What's the percentage share of Ladies in Ross Stores sales in the U.S. in 2020?", "label": "23", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1], [2, 1]]}}
+{"row_idx": 490, "query": "What is the color of smallest segment?", "label": "Green", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 493, "query": "Which year experienced the greatest improvement in poverty?", "label": "2005", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[15, 0]]}}
+{"row_idx": 499, "query": "From 2010 to 2012, which year saw the biggest change in bankruptcies?", "label": "2011", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[9, 0]]}}
+{"row_idx": 506, "query": "Which has the lowest Radio device ownership among 15-39 year-olds in the United States in 2017?", "label": "A portable AM/FM radio", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[3, 0]]}}
+{"row_idx": 514, "query": "What does the grey color indicate?", "label": "All households", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[7, 0]]}}
+{"row_idx": 518, "query": "By how much is 2 persons higher than that of 1 person?", "label": "34960", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 523, "query": "What is the average price for snowboard boots? (in dolalrs)?", "label": "158.58", "human_or_machine": 0, "kind": "compute", "detail": {"op": "average", "operands": [[1, 1], [2, 1], [3, 1]]}}
+{"row_idx": 529, "query": "Which site is three times than yellowpages?", "label": "Industry specific", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[4, 0]]}}
+{"row_idx": 532, "query": "How many number of golfers are there in 2016?", "label": "463952", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[3, 1]]}}
+{"row_idx": 534, "query": "Which repsone has the biggest slice of the graph?", "label": "As much as before the lockdown", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 542, "query": "Which year has 2.03%?", "label": "2016", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[4, 0]]}}
+{"row_idx": 545, "query": "What is the difference between Carex and Palmolive?", "label": "24.3", "human_or_machine": 0, "kind": "compute", "detail": {"op": "difference", "operands": [[1, 1], [3, 1]]}}
+{"row_idx": 549, "query": "What is the percentage of rheumatologists in the U.S. who either worked at a Hospital  or an Office-based solo practice as of 2019?", "label": "27", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 559, "query": "What is the ratio of Videos and Carousel?", "label": "1.545454545", "human_or_machine": 0, "kind": "compute", "detail": {"op": "ratio", "operands": [[2, 1], [3, 1]]}}
+{"row_idx": 567, "query": "What is the difference in company sales and revenue streams between 2013 and 2020 in US dollars?", "label": "16.3", "human_or_machine": 0, "kind": "compute", "detail": {"op": "difference", "operands": [[1, 1], [8, 1]]}}
+{"row_idx": 570, "query": "Which country has the highest number of deaths caused by major droughts worldwide from 1900-2016?", "label": "China (1928)", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 575, "query": "What is the total budgeted public sector expenditure on Transport and Defense (in billion GBP)?", "label": "99", "human_or_machine": 0, "kind": "compute", "detail": {"op": "sum", "operands": [[5, 1], [7, 1]]}}
+{"row_idx": 576, "query": "Which of these countries is the leading country in clothing experience in 2019?", "label": "China*", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 578, "query": "What growth rate has the second highest bar?", "label": "10k-100k", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[3, 0]]}}
+{"row_idx": 582, "query": "What year did Roche spend the most in?", "label": "2020", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 595, "query": "What is the total percentage revenue share of the LVMH Group worldwide in 2020 from Asia and Japan?", "label": "41", "human_or_machine": 0, "kind": "compute", "detail": {"op": "sum", "operands": [[4, 1], [5, 1]]}}
+{"row_idx": 597, "query": "What is the sum of the sales share of Food & Beverages and Beauty & household essentials segment in 2020?", "label": "46", "human_or_machine": 0, "kind": "compute", "detail": {"op": "sum", "operands": [[1, 1], [2, 1]]}}
+{"row_idx": 598, "query": "Which year has the highest number of fatalities?", "label": "2006", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[14, 0]]}}
+{"row_idx": 602, "query": "How many Facebook fans (in millions) does Mango have?", "label": "11.68", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[5, 1]]}}
+{"row_idx": 603, "query": "What is the total number of Facebook fans (in millions) that BOSS and ROLEX have?", "label": "16.06", "human_or_machine": 0, "kind": "compute", "detail": {"op": "sum", "operands": [[7, 1], [8, 1]]}}
+{"row_idx": 605, "query": "What is the difference in the monthly average earnings per hour of all employees in the US  between May 2020 and May 2021", "label": "0.59", "human_or_machine": 0, "kind": "compute", "detail": {"op": "difference", "operands": [[1, 1], [13, 1]]}}
+{"row_idx": 616, "query": "What is the number of fatalities in 2016?", "label": "563", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[4, 1]]}}
+{"row_idx": 618, "query": "What is the percentage of nickel imports in Canada?", "label": "42", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 621, "query": "What's the total of apparel and footwear, Share of Puma's net sales worldwide in 2020, by segment", "label": "82.9", "human_or_machine": 0, "kind": "compute", "detail": {"op": "sum", "operands": [[1, 1], [2, 1]]}}
+{"row_idx": 622, "query": "What is distribution of potash reserves in Germany in 2019?", "label": "4.2", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[6, 1]]}}
+{"row_idx": 631, "query": "Daily, how many percentage of people use Instagram?", "label": "63", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 635, "query": "Which year has the least number of workers?", "label": "2014", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[7, 0]]}}
+{"row_idx": 649, "query": "What is the average life expectancy between 2008 and 2018?", "label": "58.56", "human_or_machine": 0, "kind": "compute", "detail": {"op": "average", "operands": [[1, 1], [2, 1], [3, 1], [4, 1], [5, 1], [6, 1], [7, 1], [8, 1], [9, 1], [10, 1], [11, 1]]}}
+{"row_idx": 650, "query": "What is the value of highest blue bar?", "label": "30", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 660, "query": "Which country has the maximum revenue share?", "label": "North America", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 662, "query": "What is the third data value in the blue bar ? left to right", "label": "4.7", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[4, 1], [5, 1]]}}
+{"row_idx": 665, "query": "If we add Gucci and Saint Laurent percentage, write the result?", "label": "73", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 667, "query": "What 2 slices make up over 75% of the crowdfunding total?", "label": "[Equity-based crowdfunding, Real estate crowdfunding]", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "list answer not fully in table"}}
+{"row_idx": 680, "query": "Which year represents the highest expenditure?", "label": "2028", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 688, "query": "Which two market shares have been taken?", "label": "[Investment funds, Discretionary mandate assets]", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "list answer not fully in table"}}
+{"row_idx": 697, "query": "What is the average of values above 70? (in million U.S. dollars)?", "label": "71.5", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 705, "query": "What was the combined number for Manchester United players?", "label": "61", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 708, "query": "What's the percentage value of Hispanic respondents who think movies are very important for avoiding racial stereotypes?", "label": "20", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 718, "query": "What's the percentage value of White female presidents?", "label": "33", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[6, 1]]}}
+{"row_idx": 720, "query": "Who is playing more mobile games in several times a day ?", "label": "Female", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[0, 2]]}}
+{"row_idx": 728, "query": "What does the tallest bar represent", "label": "No", "human_or_machine": 0, "kind": "yes_no", "detail": {"answer": "no"}}
+{"row_idx": 730, "query": "Which gender spend more times playing games in the year 2014?", "label": "Male", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[0, 1]]}}
+{"row_idx": 736, "query": "What is the percentage of Processor market share in the year end March 2018?", "label": "40.6", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 743, "query": "what is the difference between the highest and smallest pharmacy service", "label": "10.1", "human_or_machine": 0, "kind": "compute", "detail": {"op": "difference", "operands": [[1, 1], [9, 1]]}}
+{"row_idx": 750, "query": "What type of building has the highest  Construction costs of buildings in Ontario, Canada in 2020?", "label": "Health care - ambulatory care", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[2, 0]]}}
+{"row_idx": 756, "query": "which year did the grey bar had the less sales?", "label": "2013", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 762, "query": "which year  has the highest single", "label": "2018", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 770, "query": "What is the percentage of avid male sports fans?", "label": "39", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1], [2, 3]]}}
+{"row_idx": 785, "query": "How many more men were there than women in 2018?", "label": "2.6", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 792, "query": "Which tour operators in Europe had highest revenue in 2014?", "label": "TUI", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 814, "query": "Which has the least wholesale unit sales in the U.S overall?", "label": "Smart home controllers", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[0, 2]]}}
+{"row_idx": 826, "query": "How many new cancer cases are there in male ?", "label": "970250", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 830, "query": "In which year the white members were maximum?", "label": "1995", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[12, 0]]}}
+{"row_idx": 836, "query": "What is the highest share in 2013?", "label": "75.9", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[5, 2]]}}
+{"row_idx": 846, "query": "Which year the blue bar is above 5?", "label": "2020", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 849, "query": "what is sum of the value in extinction of plants and animal species?", "label": "79", "human_or_machine": 0, "kind": "compute", "detail": {"op": "sum", "operands": [[4, 1], [4, 2]]}}
+{"row_idx": 861, "query": "Which year has the maximum traffic of smartphones?", "label": "2017", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 864, "query": "What is the highest value of the light blue bar?", "label": "4.2", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 869, "query": "What is the average from 2010 to 2015 in import value?", "label": "361048.33", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 878, "query": "Which skin  has a least difference between male and female?", "label": "Other nonepithelial skin", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 887, "query": "Subtract the value of green bar from red bar in the judges and politicians category and sum the result?", "label": "26", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[3, 1]]}}
+{"row_idx": 893, "query": "What is the difference between the ages in 2014/15?", "label": "21.2", "human_or_machine": 0, "kind": "compute", "detail": {"op": "difference", "operands": [[4, 1], [4, 2]]}}
+{"row_idx": 897, "query": "What is the average  of females value in the first five region,  from Yorkshire and the humber to south west?", "label": "9.8", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 899, "query": "What is the average of last 3 year in Danish citizenship?", "label": "1972", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 902, "query": "What is the percentage share of Industry in GDP in 2015?", "label": "13.65", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[5, 2]]}}
+{"row_idx": 907, "query": "What is the difference between the modes of Somewhat interested and that of Don't know?", "label": "27", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[3, 1]]}}
+{"row_idx": 908, "query": "What is the number of viewers in 2005?", "label": "8.1", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[2, 2]]}}
+{"row_idx": 909, "query": "What is the difference between the rating and viewers in 2013?", "label": "3.4", "human_or_machine": 0, "kind": "compute", "detail": {"op": "difference", "operands": [[1, 1], [1, 2]]}}
+{"row_idx": 913, "query": "What's the percentage of boomers who never use social media?", "label": "48", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[4, 7]]}}
+{"row_idx": 915, "query": "How much percentage points increased in services from 2014 to 2020?", "label": "3.4", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 916, "query": "Identify the category in y-axis, where the bar value is 8,5,12,20 %?", "label": "Chinese language TV", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[2, 0]]}}
+{"row_idx": 923, "query": "How many opinions have a percentage of equal or above 20%?", "label": "3", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "counting question (needs a count, not a cell)"}}
+{"row_idx": 945, "query": "How many periods represent least difference between should and should not?", "label": "3", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "counting question (needs a count, not a cell)"}}
+{"row_idx": 949, "query": "What is the average of highest values of male and female?", "label": "70.445", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 955, "query": "In which year the GDP of the services sector was maximum and the GDP of the Industry was minimum?", "label": "2019", "human_or_machine": 0, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 958, "query": "What's the color of the tallest bar in this graph?", "label": "Red", "human_or_machine": 0, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 983, "query": "How many drug recall enforcement reports did the FDA issue for over-the-counter drugs in 2015?", "label": "39", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[3, 1]]}}
+{"row_idx": 990, "query": "How much revenue did TUI have in 2012 and 2014?", "label": "18.7", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 2]]}}
+{"row_idx": 999, "query": "What online review site did 59 percent of respondents say they had visited to conduct research on a local business?", "label": "Yelp", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 0]]}}
+{"row_idx": 1004, "query": "What country had the world's largest potash reserves in 2019?", "label": "Canada", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1019, "query": "How many Taco Bell stores did Yum! Brands have in Spain at the end of the third quarter of 2020?", "label": "69", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[3, 1]]}}
+{"row_idx": 1020, "query": "Which accounting firm was the biggest of the Big Four accounting firms in 2020?", "label": "Deloitte", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1023, "query": "Which liquid soap brand has managed to maintain positive sales growth over the specified time period?", "label": "Carex", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1026, "query": "How much was the internal travel and tourism consumption in the U.S. Virgin Islands in 2013?", "label": "3.24", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[7, 1]]}}
+{"row_idx": 1027, "query": "What is the 2019 revenue of the U.S. Virgin Islands tourism industry?", "label": "2.59", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1030, "query": "What percentage of people infected with the coronavirus were female?", "label": "51.1", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 1032, "query": "What percentage of pet store revenue did 25-44-year-olds generate in 2021?", "label": "32.3", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1036, "query": "What percentage of L'Oral's global consolidated sales did skin care account for in 2020?", "label": "39.48", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1046, "query": "What percentage of global clothing exports did China have in 2019?", "label": "30.8", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1048, "query": "How much revenue did General Motors generate in the 2020 fiscal year?", "label": "122.49", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1056, "query": "What was LVMH Group's global revenue share from the United States in 2020?", "label": "24", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[3, 1]]}}
+{"row_idx": 1067, "query": "What was Hornbach's sales revenue in 2013?", "label": "2", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1070, "query": "What was the initial estimate for Denmark's economy growth?", "label": "1.5", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1080, "query": "What was the share of SME companies with family management in Italy in 2018?", "label": "78.4", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 1096, "query": "According to a study conducted in 2019, what percentage of 13 to 20 year old females in the top grossing films of 2018 were shown in what is", "label": "37.3", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1097, "query": "How many eSports enthusiasts are expected to be around by 2024?", "label": "285.7", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1099, "query": "What percentage of the whole accident, health and medical insurance market was covered by the five leading companies as of end of 2014?", "label": "75.9", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[5, 2]]}}
+{"row_idx": 1118, "query": "What was the total number of visitors to the Palace of Versailles in 2014?", "label": "7.7", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1], [4, 1]]}}
+{"row_idx": 1125, "query": "What was the value of commercial and industrial loans of FDIC-insured commercial banks in dollars in 2019?", "label": "2.16", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1128, "query": "What is the estimated urea production capacity addition in the United States in 2017?", "label": "2.7", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1134, "query": "What percentage of the British adult population owns an eReader?", "label": "28", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[4, 1]]}}
+{"row_idx": 1152, "query": "How many people visit Kokkejaelvel every day?", "label": "27006", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1158, "query": "How much did The Twilight Saga: New Moon gross in the U.S. in January 2018?", "label": "296.62", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 1169, "query": "What percentage of all UAVs traded came from the UK between 2010 and 2014?", "label": "33.9", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1175, "query": "By 2020, the distance traveled by passengers on the London Underground declined to what?", "label": "11.8", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[4, 1]]}}
+{"row_idx": 1178, "query": "What percentage of Nigeria's GDP did the oil industry contribute between October and December 2020?", "label": "5.87", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 1191, "query": "How much did TUI AG spend on wages and salaries in 2020?", "label": "1871.6", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 1195, "query": "As of March 2020, how many enterprises had a turnover of more than 5 million British pounds?", "label": "15", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "counting question (needs a count, not a cell)"}}
+{"row_idx": 1204, "query": "How many hours were watched on Twitch in May 2021?", "label": "91.9", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1210, "query": "What was the market value of Sergej Milinkovic-Savic?", "label": "90", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1214, "query": "Since when has the plant load factor of all power stations in the UK fluctuated?", "label": "2010", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[10, 0]]}}
+{"row_idx": 1220, "query": "What is the percentage of jobs that Northern Ireland and the South West region are expected to lose?", "label": "1.2", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1], [2, 1]]}}
+{"row_idx": 1221, "query": "What is the name of the French shipping company with the largest chartered fleet?", "label": "Mediterranean Shg Co", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1225, "query": "What was the number of Instagram users in South Africa in April 2020?", "label": "4.31", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[11, 1]]}}
+{"row_idx": 1226, "query": "How many Instagram users were there in South Africa as of April 2021?", "label": "5.79", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1240, "query": "What was the infant mortality rate in Malawi in 2019?", "label": "30.9", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1241, "query": "In what year did customers spend an estimated 72.3 billion U.S. dollars on in-app purchases, subscriptions, and premium apps?", "label": "2020", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1246, "query": "How much did Yahoo pay for Tumblr?", "label": "1100", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[3, 1]]}}
+{"row_idx": 1250, "query": "What was the value of imports in U.S. dollars in 2020?", "label": "2808.95", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 2]]}}
+{"row_idx": 1252, "query": "How much freight was transported in Russia between 2006 and 2019?", "label": "4300741", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1258, "query": "What percentage of Spain's exports came from France in 2019?", "label": "15", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1266, "query": "What country is the largest importer of the Russian car brand?", "label": "Latvia", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1276, "query": "What was the average price of one barrel of Brent Crude oil in May 2021?", "label": "68.53", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1281, "query": "What was the number of defendants charged in 2017?", "label": "412", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1283, "query": "How many days of rainfall did Paris have in January?", "label": "11", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "counting question (needs a count, not a cell)"}}
+{"row_idx": 1286, "query": "Who is the career points leader of the Dallas Mavericks?", "label": "Dirk Nowitzki", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1294, "query": "What public issuer had about 9.4 million viewers in the considered time range?", "label": "Rai", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1302, "query": "How many companies did Google acquire in 2014?", "label": "36", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[5, 1]]}}
+{"row_idx": 1304, "query": "What was the most popular social media platform in Germany as of the 3rd quarter of 2020?", "label": "WhatsApp", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1310, "query": "What was the group share of net income for Thales in 2005?", "label": "334", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[9, 1]]}}
+{"row_idx": 1315, "query": "What was the global market value of blockchain in the food and agriculture market in 2017?", "label": "32.2", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[4, 1]]}}
+{"row_idx": 1323, "query": "How many Democratic senators make up the 116th Congress?", "label": "45", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1], [4, 2], [11, 1], [12, 1], [13, 1], [16, 2], [16, 3], [17, 2], [17, 3]]}}
+{"row_idx": 1325, "query": "What website had about 423.43 million mobile visits in September 2019?", "label": "ebay Kleinanzeigen", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1331, "query": "What was Mexico's export value in dollars in 2019?", "label": "2789.67", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1340, "query": "What was the name of the most number of restaurants owned by Bloomin' Brands, Inc. in 2020?", "label": "Outback Steakhouse", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[0, 1]]}}
+{"row_idx": 1371, "query": "What was Nebraska's unemployment rate in 2020?", "label": "4.2", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1383, "query": "What percentage of PV inverter market shipments did Huawei account for in 2018?", "label": "22", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1385, "query": "How much Japanese yen did Kawasaki incur in research and development expenses in the fiscal year of 2013?", "label": "40.3", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[3, 1]]}}
+{"row_idx": 1399, "query": "How many births were registered in Italy in 2010?", "label": "549794", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1408, "query": "What was the average selling price of a smartphone in Pakistan in 2016?", "label": "121", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[5, 1]]}}
+{"row_idx": 1409, "query": "What was the highest grossing film in the UK in January of 2020?", "label": "Star Wars: Episode IX - The Rise of Skywalker", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 0]]}}
+{"row_idx": 1417, "query": "What was Finland's annual trade index as of 2019?", "label": "98.8", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1], [3, 1]]}}
+{"row_idx": 1424, "query": "What was China's export value in dollars in 2018?", "label": "26588", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 1437, "query": "What percentage of their weekly household expenditure did households in the eight decile group spend on medical products?", "label": "0.7", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[6, 1], [8, 1]]}}
+{"row_idx": 1446, "query": "What year was Southwest Airlines Co.'s last fiscal year?", "label": "2010", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[11, 0]]}}
+{"row_idx": 1450, "query": "What percentage of total mobile service revenue did mobile data account for in the UK in 2015?", "label": "27.6", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1453, "query": "What was the unemployment rate in 2020?", "label": "8.1", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1], [9, 1]]}}
+{"row_idx": 1459, "query": "What was the abandonment rate in the previous quarter?", "label": "77.3", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1466, "query": "What was the turnover of clothing stores in 2019?", "label": "41140", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1474, "query": "What year was Bridgestone's fiscal year for research and development?", "label": "2009", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[10, 0]]}}
+{"row_idx": 1478, "query": "What was the export value of the European Union's fish and fishery products in US dollars in 2019?", "label": "36.2", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1483, "query": "What was Iowa's unemployment rate in 2020?", "label": "5.3", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1489, "query": "What was the population density of Missouri in 2018?", "label": "89.1", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1492, "query": "In what year did the population of Guyana begin to increase?", "label": "2008", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[11, 0]]}}
+{"row_idx": 1494, "query": "What was the average cost of overnight accommodation in Los Angeles in July 2017?", "label": "256", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[6, 5]]}}
+{"row_idx": 1502, "query": "How many boys participated in high school baseball in the 2018/19 season?", "label": "482740", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1505, "query": "What percentage of respondents said that a major reason for not attending an arts event was that the entry fee was too much?", "label": "36.7", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1509, "query": "Which team has won the most League Cup titles?", "label": "Liverpool FC", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1519, "query": "What was the average amount of damages from a targeted cyber attack on a business?", "label": "5.9", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 1527, "query": "Which Italian football team won the most Coppa Italia competitions in 2020?", "label": "Juventus FC", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1530, "query": "What was the total amount of student loan debt in England in 2020?", "label": "121.81", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1535, "query": "What was the number of JBS employees worldwide in 2019?", "label": "242105", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1536, "query": "How many employees did JBS have a year earlier?", "label": "230086", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 1538, "query": "How much did the Maldives' gross domestic product grow in 2019?", "label": "6.99", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[8, 1]]}}
+{"row_idx": 1542, "query": "How many visitors did Yosemite National Park see in 2020?", "label": "2.27", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1555, "query": "How many metric tons of greenhouse gases did Dow Chemical emit in 2005?", "label": "47", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[7, 1]]}}
+{"row_idx": 1557, "query": "How many times has Iker Casillas appeared in the Champions League?", "label": "181", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1558, "query": "Who follows Iker Casillas in appearances in the Champions League?", "label": "Cristiano Ronaldo", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 0]]}}
+{"row_idx": 1562, "query": "What was the average annual wine consumption per resident in the United States in 2018?", "label": "2.95", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1563, "query": "What is the expected number of inbound visitors in the Netherlands in 2020?", "label": "20.1", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1565, "query": "In what year did Walmart have a stable gross profit margin?", "label": "2006", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[16, 0]]}}
+{"row_idx": 1576, "query": "How many players did Juventus FC have as of October 2020?", "label": "23", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[20, 1]]}}
+{"row_idx": 1578, "query": "Which football club had the lowest number of footballers as of October 2020?", "label": "Juventus FC", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[20, 0]]}}
+{"row_idx": 1581, "query": "What was the average face amount of individual life insurance policies purchased in the United States in 2018?", "label": "168", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1], [5, 1]]}}
+{"row_idx": 1582, "query": "What was the average face amount of individual life insurance policies purchased in the United States in 2018?", "label": "168", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1], [5, 1]]}}
+{"row_idx": 1591, "query": "In what year was the app sensor market forecast to be worth 5.6 billion U.S. dollars?", "label": "2017", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1595, "query": "What was the global number of Inditex employees in 2020?", "label": "144116", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1609, "query": "What is the combined market/transfer value of the Spanish squad?", "label": "622", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1610, "query": "What was the net banking income of European banks in 2013?", "label": "700", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1620, "query": "What percentage of Nigerians use Facebook and Youtube?", "label": "86.2", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 1622, "query": "How much revenue did Zynga generate in the first quarter of 2021?", "label": "616", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 1625, "query": "How many widowed people lived in Canada in 2000?", "label": "1.55", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[21, 1]]}}
+{"row_idx": 1627, "query": "What country has the largest population in Africa?", "label": "Nigeria", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1640, "query": "What was the highest rating for En Punto con Denise Maerker?", "label": "11.8", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1648, "query": "How much money did Universal spend on '1917'?", "label": "10.41", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1657, "query": "Which country was responsible for five percent of the global blood plasma market?", "label": "Germany", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[3, 0]]}}
+{"row_idx": 1665, "query": "What was the global demand for ethylene in 2017?", "label": "152", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 1668, "query": "What was the unemployment rate in Sierra Leone in 2020?", "label": "4.44", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1], [9, 1]]}}
+{"row_idx": 1678, "query": "What was the total sales of office supplies, stationery, and gift stores in the United States a year earlier?", "label": "30.32", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1680, "query": "How many carvedilol prescriptions were there in 2018?", "label": "22.78", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[8, 1]]}}
+{"row_idx": 1688, "query": "Which country came in second among the countries shown in this graph?", "label": "Mexico", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 0]]}}
+{"row_idx": 1690, "query": "What percentage of respondents identified the problems with integrating systems and operations as the main obstacle on the way to smooth integration?", "label": "29", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1696, "query": "By what year did Brunei expect to have a population over 65?", "label": "2040", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1703, "query": "What is the predicted decrease in smartphone shipment value in 2020?", "label": "6.4", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1710, "query": "What percentage of food and grocery retail sales did online sales make up in 2013?", "label": "0.4", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 2]]}}
+{"row_idx": 1716, "query": "How many mobile subscriptions were registered for every 100 people in South Africa between 2000 and 2019?", "label": "165.6", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1722, "query": "Who is the career rushing leader of the Kansas City Chiefs?", "label": "Jamaal Charles", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1730, "query": "How much money did full public relations services bring in in 2019?", "label": "764", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1745, "query": "Which country had the highest pedestrian death rate out of all the countries of the UK?", "label": "Romania", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[25, 0]]}}
+{"row_idx": 1752, "query": "What was India's revenue from international tourism in 2019?", "label": "30.06", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1774, "query": "What was the average number of children born per one woman in the urban area?", "label": "1.43", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1], [2, 1]]}}
+{"row_idx": 1786, "query": "Which region had the highest number of cases of coronavirus?", "label": "Lombardy", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1790, "query": "What was the benchmark index of commercial rents during the 1st quarter of 2020?", "label": "116.23", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1796, "query": "What was the second most popular newspaper in the UK?", "label": "The Guardian", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 0]]}}
+{"row_idx": 1806, "query": "What percentage of GDP did the national debt of the Philippines amount to in 2020?", "label": "47.07", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[7, 1]]}}
+{"row_idx": 1809, "query": "How many points does Ronan O'Gara have for the Irish national rugby team?", "label": "93", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1821, "query": "How much was proposed for military crisis management in 2021?", "label": "59", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1824, "query": "What was the GDP of Massachusetts in dollars in the previous year?", "label": "519.96", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 1829, "query": "What was Coca Cola's market share in Egypt in 2010?", "label": "32", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 1]]}}
+{"row_idx": 1838, "query": "What was the estimated amount of sponsorship and advertising spending on the eSports market in 2017?", "label": "124.41", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[7, 1]]}}
+{"row_idx": 1847, "query": "What was the monthly CPI for lamb and goat meat in Italy at the beginning of the year 2015?", "label": "101.7", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[23, 1]]}}
+{"row_idx": 1853, "query": "How many stores did Dillard's operate in 2020?", "label": "282", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1857, "query": "What percentage of white respondents said they see the Confederate flag as a symbol of racism?", "label": "25", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 2]]}}
+{"row_idx": 1859, "query": "How many people committed suicide by throwing themselves in front of a train in 2006?", "label": "24", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[3, 1]]}}
+{"row_idx": 1862, "query": "What was the lowest production of duck foie gras in 2017?", "label": "11519", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1867, "query": "What was the most frequently used social network in Canada?", "label": "Facebook", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1868, "query": "How much did Alphabet spend on lobbying in 2020?", "label": "8.85", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1869, "query": "How much did J.K. Rowling earn from June 2018 to June 2019?", "label": "92", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 1]]}}
+{"row_idx": 1873, "query": "Which country has the most markets?", "label": "France", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 0]]}}
+{"row_idx": 1875, "query": "How much did the cruise industry pay in employee wages in 2009?", "label": "5.48", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[11, 1]]}}
+{"row_idx": 1876, "query": "How much was the expenses of the Green Bay Packers in 2017?", "label": "376.1", "human_or_machine": 1, "kind": "unusable", "detail": {"reason": "answer not in table and no reliable calculation fits"}}
+{"row_idx": 1883, "query": "When did the value of gross written premiums by life insurance companies on the domestic market in Malta increase?", "label": "2012", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[8, 0]]}}
+{"row_idx": 1905, "query": "What percentage of 17 year olds attended school?", "label": "93.3", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[4, 1]]}}
+{"row_idx": 1909, "query": "In what year did the per capita gross domestic product reach its highest value?", "label": "2019", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[2, 0]]}}
+{"row_idx": 1915, "query": "What was the most valuable British-Dutch oil and gas company in 2021?", "label": "Shell", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}
+{"row_idx": 1918, "query": "Where did migrants arrive from January to December 2018?", "label": "Pozzallo", "human_or_machine": 1, "kind": "extract", "detail": {"cells": [[1, 0]]}}

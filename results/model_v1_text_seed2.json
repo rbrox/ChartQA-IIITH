@@ -1,0 +1,23 @@
+{
+ "router": {
+  "overall": 0.49333333333333335,
+  "human-written": 0.35333333333333333,
+  "machine": 0.6333333333333333,
+  "true kind = extract": 0.6333333333333333,
+  "true kind = compute": 0.03333333333333333,
+  "true kind = yes_no": 0.4,
+  "true kind = count_rows": 0.0,
+  "true kind = unusable": 0.20833333333333334
+ },
+ "router_accuracy": 0.9047619047619048,
+ "oracle": {
+  "overall": 0.5,
+  "human-written": 0.36666666666666664,
+  "machine": 0.6333333333333333,
+  "true kind = extract": 0.6333333333333333,
+  "true kind = compute": 0.0,
+  "true kind = yes_no": 0.5,
+  "true kind = count_rows": 1.0,
+  "true kind = unusable": 0.20833333333333334
+ }
+}
