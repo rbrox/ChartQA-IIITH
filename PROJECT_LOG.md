@@ -34,10 +34,11 @@ Last updated: 2026-11-11
 
 ## 2. Next immediate step
 
-1. Build the **compute head** (sum, difference, average, ratio, max, min, median, count, count above or below a value, with operands chosen from table cells). 296 training examples exist in `results/unichart_train_3000_final_labels.jsonl`. Compute questions are about 10% of validation and score 0% now.
-2. Look at the extract head's mistakes on validation and improve it (v1 gets about 62% on extract-type questions).
-3. Revisit the image input only for the extract head or for colour questions, since pooled features hurt overall.
-4. Commit and push the new files (the user pushes).
+1. Improve the **extract head** (about 61% on extract-type questions, the biggest piece): look at its mistakes on validation and add features or fixes.
+2. Improve the **router** (about 93% correct; about 2 points of overall score are lost when compute questions go to the wrong head).
+3. **Trying a finer image map (8x8 regions, 64 vectors per chart).** Run `utils/extract_image_features.py --grid 8` on Kaggle for the training charts (output `image_features_8x8`) and the validation charts (`image_features_8x8_val`), download them into `results/`, then train with `--image-mode grid --image-grid 8` for 3 seeds and compare with the 4x4 grid (51.6%) and text only (52.0%). The 4x4 grid is neutral overall and maybe slightly helpful on colour and position questions. A finer map (8x8 or more, a short Kaggle run) is only worth trying if scaling up the data does not change the picture.
+4. Commit and push the compute head (`utils/train_model.py`, `results/model_v2_text*.json`).
+5. Later (Checkpoint 2): extract all 18,271 training charts with UniChart (about 6 hours, an estimate), retrain, then build the demo.
 
 ## 3. The pipeline we are building
 
@@ -82,6 +83,9 @@ Frozen MiniLM text embeddings plus simple numeric and question-match features; t
 |---|---|---|---|---|
 | Text only | 48.9% (48.3, 49.0, 49.3) | 33.3% | 64.4% | 61.7% |
 | Text + UniChart image features | 45.3% (43.7, 45.3, 47.0) | 25.8% | 64.9% | 58.9% |
+| **v2: text + compute head** | **52.0%** (52.3, 54.3, 49.3) | **39.3%** | 64.7% | 61.1% |
+| v2 + image grid (question attends over 16 chart regions) | 51.6% (51.3, 49.3, 54.0) | 40.9% | 62.2% | 61.6% |
+| v2 + image grid (question attends over 16 chart regions; cell scorers only) | 51.6% (51.3, 49.3, 54.0) | 40.9% | 62.2% | 61.6% |
 | Baseline UniChart + DeepSeek (rows split) | 77.0% | 65.3% | 88.7% | n/a |
 | Baseline DePlot + DeepSeek | 81.0% | 74.0% | 88.0% | n/a |
 
@@ -89,6 +93,9 @@ Frozen MiniLM text embeddings plus simple numeric and question-match features; t
 - Compute questions get no answer yet, so they score 0%; they are about 10% of validation.
 - **Pooled image features did not help.** Every text-only run beat every image run overall. They hurt the human-written group (26% vs 33%) and the router, and are about equal on machine-generated questions. With about 2,000 training questions a 1,024-number image vector adds noise. If the image is used again, try it only in the extract head or for colour questions.
 - The first version (without question-match features) scored 38.3%; adding the similarity and word-overlap features gave 48.3%.
+- **Image grid attention** (`--image-mode grid`; the earlier averaged vector is `--image-mode mean`): no overall change (51.6% vs 52.0%, within the seed-to-seed spread of about 5 points). Slightly better on human-written questions (40.9% vs 39.3%) and on the 35 validation questions that mention a colour or position (36.2% vs 32.4%: better on 8, worse on 5, same on 22), slightly worse on machine-generated ones (62.2% vs 64.7%). The colour result is too small a sample to call. Per-question answers are in `results/model_v2_*_s*.answers.jsonl`.
+- **Image grid (3 seeds).** The model loads all 16 regional vectors per chart and the question attends over them (`--image-mode grid`; only the cell scorers see the result, not the router). Overall it ties the text-only model (51.6% vs 52.0%, well inside the 5-point seed-to-seed spread). It is slightly better on human-written questions (40.9% vs 39.3%) and worse on machine-generated ones (62.2% vs 64.7%). On the 35 colour or position questions in the validation sample it scores 36.2% vs 32.4% (8 questions better, 5 worse, 22 the same): a small hint, too few questions to be sure. The old whole-chart average vector (`--image-mode mean`) hurt (45.3%), so the grid is the way the image is used if the image is included. Answers per question are in `results/model_v2_*_s*.answers.jsonl`.
+- **v2 adds the compute head** (`utils/train_model.py`; `--no-compute` gives v1). It picks the operation (sum, difference, average, ratio, count above or below a value; about 92% to 100% operation accuracy on held-out training data) and the table cells, and the arithmetic is done in code. Compute-type validation questions go from 0% to 32% (52% if the router sent them all to the compute head). With perfect routing the overall score would be 54.4%, so misrouting costs about 2 points. Results in `results/model_v2_text*.json`.
 
 ## 5. Decision log
 
@@ -152,7 +159,7 @@ Frozen MiniLM text embeddings plus simple numeric and question-match features; t
 | Scripts | `utils/make_val_sample.py`, `run_deplot.py`, `run_unichart.py`, `answer_and_score.py`, `answer_space.py`, `make_train_subset.py`, `make_subset_images.py`, `build_labels.py` |
 | Model v1 | `utils/build_candidates.py`, `utils/embed_examples.py` (writes `datasets/embeddings/`, git-ignored), `utils/train_model.py` (results in `results/model_v1_*.json`) |
 | Image features | `utils/make_val_images.py` (packs the validation charts), `utils/extract_image_features.py` (writes `results/image_features/features_part_*.npz`; load with `load_features`) |
-| Notebooks | `data_exploration/baseline_progress.ipynb`, `answer_space.ipynb` |
+| Notebooks | `data_exploration/checkpoint_1.ipynb` (status against each problem-statement step, results, baseline comparison, error analysis, to-do list; read live from `results/`), `baseline_progress.ipynb`, `answer_space.ipynb` |
 | Report | `results/deplot_vs_unichart_report.md` |
 | Samples | `results/val_sample_300.csv`, `results/train_subset_3000.csv` |
 | Tables and answers | `results/deplot_val_300*.jsonl`, `results/unichart_val_300*.jsonl` |
