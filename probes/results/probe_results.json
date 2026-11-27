@@ -1,0 +1,126 @@
+{
+ "retrieval": {
+  "questions": 2014,
+  "top1": 0.41360476663356505,
+  "top3": 0.5734856007944389,
+  "mean_reciprocal_rank": 0.5311511944097931,
+  "chance_top1": 0.058622175493153676,
+  "by_answer_cell": {
+   "value": {
+    "questions": 1362,
+    "top1": 0.5756240822320118,
+    "chance_top1": 0.060160158801521264
+   },
+   "row_label": {
+    "questions": 550,
+    "top1": 0.056363636363636366,
+    "chance_top1": 0.05721059438765874
+   },
+   "header": {
+    "questions": 102,
+    "top1": 0.17647058823529413,
+    "chance_top1": 0.04569704159144347
+   }
+  }
+ },
+ "number order (which cell is larger)": {
+  "train": 13016,
+  "test": 3325,
+  "classes": 2,
+  "baseline": 0.4878195524215698,
+  "linear": 0.602706789970398,
+  "mlp": 0.6321804523468018,
+  "control_shuffled": 0.48721805214881897,
+  "note": "two cells from one column; chance is 50%"
+ },
+ "number size (power of ten of a value)": {
+  "train": 24092,
+  "test": 5908,
+  "classes": 6,
+  "baseline": 0.4466824531555176,
+  "linear": 0.7251184582710266,
+  "mlp": 0.7457684278488159,
+  "control_shuffled": 0.4429587125778198,
+  "note": "one cell; classes are 0.1-1, 1-10, 10-100, 100-1k, 1k-10k, 10k and up"
+ },
+ "question intent (control)": {
+  "train": 2483,
+  "test": 252,
+  "classes": 4,
+  "baseline": 0.8333333134651184,
+  "linear": 0.908730149269104,
+  "mlp": 0.9246031641960144,
+  "control_shuffled": 0.761904776096344,
+  "note": "question vector -> extract, compute, yes/no or count rows; trained on the training subset, tested on validation"
+ },
+ "calculation type (from the question)": {
+  "train": 295,
+  "test": 30,
+  "classes": 5,
+  "baseline": 0.30000001192092896,
+  "linear": 0.8666666746139526,
+  "mlp": 0.8666666746139526,
+  "control_shuffled": 0.36666667461395264,
+  "note": "question vector -> sum, difference, average, ratio or count; trained on training, tested on validation"
+ },
+ "image, whole-chart vector: data series: 1, 2 or 3+": {
+  "train": 2215,
+  "test": 553,
+  "classes": 3,
+  "baseline": 0.7305606007575989,
+  "linear": 0.9421338438987732,
+  "mlp": 0.943942129611969,
+  "control_shuffled": 0.6202531456947327,
+  "note": "targets are read from UniChart's table for the chart (so they are approximate)"
+ },
+ "image, 4x4 grid vectors: data series: 1, 2 or 3+": {
+  "train": 2215,
+  "test": 553,
+  "classes": 3,
+  "baseline": 0.7305606007575989,
+  "linear": 0.9240506291389465,
+  "mlp": 0.9421338438987732,
+  "control_shuffled": 0.47920432686805725,
+  "note": "targets are read from UniChart's table for the chart (so they are approximate)"
+ },
+ "image, whole-chart vector: rows: up to 5, 6 to 10, 11+": {
+  "train": 2215,
+  "test": 553,
+  "classes": 3,
+  "baseline": 0.36528030037879944,
+  "linear": 0.8969258666038513,
+  "mlp": 0.9113923907279968,
+  "control_shuffled": 0.30922242999076843,
+  "note": "targets are read from UniChart's table for the chart (so they are approximate)"
+ },
+ "image, 4x4 grid vectors: rows: up to 5, 6 to 10, 11+": {
+  "train": 2215,
+  "test": 553,
+  "classes": 3,
+  "baseline": 0.36528030037879944,
+  "linear": 0.8951175212860107,
+  "mlp": 0.9186256527900696,
+  "control_shuffled": 0.3182640075683594,
+  "note": "targets are read from UniChart's table for the chart (so they are approximate)"
+ },
+ "image, whole-chart vector: values shown as percentages or not": {
+  "train": 2215,
+  "test": 553,
+  "classes": 2,
+  "baseline": 0.5967450141906738,
+  "linear": 0.9819168448448181,
+  "mlp": 0.9819168448448181,
+  "control_shuffled": 0.5226039886474609,
+  "note": "targets are read from UniChart's table for the chart (so they are approximate)"
+ },
+ "image, 4x4 grid vectors: values shown as percentages or not": {
+  "train": 2215,
+  "test": 553,
+  "classes": 2,
+  "baseline": 0.5967450141906738,
+  "linear": 0.9819168448448181,
+  "mlp": 0.9855334758758545,
+  "control_shuffled": 0.5117540955543518,
+  "note": "targets are read from UniChart's table for the chart (so they are approximate)"
+ }
+}

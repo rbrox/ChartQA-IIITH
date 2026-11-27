@@ -1,0 +1,132 @@
+{
+ "text: leading digit of the number (1 to 9)": {
+  "train": 24006,
+  "test": 5994,
+  "classes": 9,
+  "baseline": 0.24941608309745789,
+  "linear": 0.6284617781639099,
+  "mlp": 0.6978645324707031,
+  "control_shuffled": 0.22922922670841217,
+  "note": "exact digits, not only size"
+ },
+ "text: number of decimal places (0, 1, 2+)": {
+  "train": 24006,
+  "test": 5994,
+  "classes": 3,
+  "baseline": 0.4753086566925049,
+  "linear": 0.8335001468658447,
+  "mlp": 0.8588588833808899,
+  "control_shuffled": 0.43843844532966614,
+  "note": "formatting detail"
+ },
+ "text: position of a row name (first, middle, last third)": {
+  "train": 21124,
+  "test": 5079,
+  "classes": 3,
+  "baseline": 0.3685764968395233,
+  "linear": 0.5119118094444275,
+  "mlp": 0.5280566811561584,
+  "control_shuffled": 0.3467217981815338,
+  "note": "a row-name cell on its own"
+ },
+ "text: is this cell the largest in its column (50/50)": {
+  "train": 5759,
+  "test": 1395,
+  "classes": 2,
+  "baseline": 0.49462366104125977,
+  "linear": 0.5863799452781677,
+  "mlp": 0.5784946084022522,
+  "control_shuffled": 0.4831541180610657,
+  "note": "one cell; chance 50%"
+ },
+ "image, whole-chart vector: size of the largest value (power of ten)": {
+  "train": 2000,
+  "test": 499,
+  "classes": 6,
+  "baseline": 0.5150300860404968,
+  "linear": 0.9358717203140259,
+  "mlp": 0.9398797750473022,
+  "control_shuffled": 0.3386773467063904,
+  "note": "answer key from UniChart's table"
+ },
+ "image, 4x4 grid: size of the largest value (power of ten)": {
+  "train": 2000,
+  "test": 499,
+  "classes": 6,
+  "baseline": 0.5150300860404968,
+  "linear": 0.9158316850662231,
+  "mlp": 0.9338677525520325,
+  "control_shuffled": 0.18236473202705383,
+  "note": "answer key from UniChart's table"
+ },
+ "image, 8x8 grid: size of the largest value (power of ten)": {
+  "train": 2000,
+  "test": 499,
+  "classes": 6,
+  "baseline": 0.5150300860404968,
+  "linear": 0.905811607837677,
+  "mlp": null,
+  "control_shuffled": 0.19639278948307037,
+  "note": "answer key from UniChart's table"
+ },
+ "image, whole-chart vector: is the last row's value above the first row's (series 1)": {
+  "train": 2000,
+  "test": 499,
+  "classes": 2,
+  "baseline": 0.7555110454559326,
+  "linear": 0.8076152205467224,
+  "mlp": 0.851703405380249,
+  "control_shuffled": 0.6653306484222412,
+  "note": "answer key from UniChart's table"
+ },
+ "image, 4x4 grid: is the last row's value above the first row's (series 1)": {
+  "train": 2000,
+  "test": 499,
+  "classes": 2,
+  "baseline": 0.7555110454559326,
+  "linear": 0.7915831804275513,
+  "mlp": 0.8677354454994202,
+  "control_shuffled": 0.563126266002655,
+  "note": "answer key from UniChart's table"
+ },
+ "image, 8x8 grid: is the last row's value above the first row's (series 1)": {
+  "train": 2000,
+  "test": 499,
+  "classes": 2,
+  "baseline": 0.7555110454559326,
+  "linear": 0.7615230679512024,
+  "mlp": null,
+  "control_shuffled": 0.5691382884979248,
+  "note": "answer key from UniChart's table"
+ },
+ "image, whole-chart vector: where the largest value is: first, middle or last third of the rows": {
+  "train": 1880,
+  "test": 470,
+  "classes": 3,
+  "baseline": 0.6680850982666016,
+  "linear": 0.7510638236999512,
+  "mlp": 0.7914893627166748,
+  "control_shuffled": 0.542553186416626,
+  "note": "answer key from UniChart's table"
+ },
+ "image, 4x4 grid: where the largest value is: first, middle or last third of the rows": {
+  "train": 1880,
+  "test": 470,
+  "classes": 3,
+  "baseline": 0.6680850982666016,
+  "linear": 0.7340425252914429,
+  "mlp": 0.8297872543334961,
+  "control_shuffled": 0.42127659916877747,
+  "note": "answer key from UniChart's table"
+ },
+ "image, 8x8 grid: where the largest value is: first, middle or last third of the rows": {
+  "train": 1880,
+  "test": 470,
+  "classes": 3,
+  "baseline": 0.6680850982666016,
+  "linear": 0.742553174495697,
+  "mlp": null,
+  "control_shuffled": 0.4063829779624939,
+  "note": "answer key from UniChart's table"
+ }
+}

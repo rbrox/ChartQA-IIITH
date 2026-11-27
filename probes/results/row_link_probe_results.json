@@ -1,0 +1,21 @@
+{
+ "no_training": {
+  "value_cells": 36752,
+  "top1": 0.9165487592511972,
+  "chance": 0.10993998449554312
+ },
+ "side by side": {
+  "test": 6004,
+  "baseline": 0.5,
+  "linear": 0.5029979944229126,
+  "mlp": 0.9400399923324585,
+  "control_shuffled": 0.5094936490058899
+ },
+ "side by side + product": {
+  "test": 6004,
+  "baseline": 0.5,
+  "linear": 0.9248834252357483,
+  "mlp": 0.9550299644470215,
+  "control_shuffled": 0.5059959888458252
+ }
+}
